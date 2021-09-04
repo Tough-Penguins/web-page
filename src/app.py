@@ -1,8 +1,6 @@
 from _app import app
 from flask.templating import render_template
 
-app.static_folder = 'static'
-
 @app.errorhandler(404)
 def page_not_found(e):
     """Método para manejar los errores de tipo 404."""
