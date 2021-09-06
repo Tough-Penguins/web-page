@@ -12000,6 +12000,21 @@ body {
   justify-content: center;
 }
 
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-rm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem); 
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .accordion {
   width: 90%;
   max-width: 1000px;
@@ -12027,22 +12042,36 @@ body {
   padding: 1rem 0;
   position: relative;
   cursor: pointer;
-} 
+}
+
 .accordion-item-header::after {
   content: "\002B";
   font-size: 2rem;
   position: absolute;
   right: 1rem;
 }
+
 .accordion-item-header.active::after {
   content: "\2212";
 }
+
 .accordion-item-body {
   max-height: 0;
   overflow: hidden;
   position: relative;
   background-color: #212838;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-item-body::before {
+  content: "";
+  position: absolute;
+  width: .6rem;
+  height: 90%;
+  background-color: #ABD3FA;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .accordion-item-body-content {
