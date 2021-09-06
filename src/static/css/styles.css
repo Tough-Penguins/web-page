@@ -11472,7 +11472,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: rgba(0, 0, 0, 1.0);
+  background-color: transparent;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11521,7 +11521,8 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    /* NavBar background when scroll */
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 75%, #fff 100%), url('../assets/img/hielo.jpg');
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11532,7 +11533,7 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #aad4e5;
+    color: #4169E1;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
@@ -12091,4 +12092,44 @@ body {
   html {
     font-size: 14px;
   }
+}
+
+#header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .logo {
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: black;
+}
+
+#header ul li a:hover {
+  background: black;
+  color: white;
 }
