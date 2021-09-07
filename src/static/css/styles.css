@@ -11751,42 +11751,10 @@ h1 {
   padding: 5rem 0;
 }
 
-.our-team{
-  border-radius: 15px;
-  text-align: center;
-  padding: 15px 10px 20px;
-  background: #fff;
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
 }
-.our-team .pic{
-  background: #fff;
-  padding: 10px;
-  margin-bottom: 25px;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  transition: all 0.5s ease 0s;
-}
-.pic img{
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-.our-team .title{
-  font-weight: 600;
-  color: #2e282a;
-  text-transform: uppercase;
-  display: block;
-  font-size: 20px;
-  margin: 0 0 7px 0;
-}
-.our-team .post{
-  color: #17bebb;
-  text-transform: capitalize;
-  display: block;
-  font-size: 15px;
-  margin-bottom: 15px;
-}
-
 .container {
   width: 100%;
   max-width: 80rem;
@@ -12031,4 +11999,76 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.contact-section .container-team {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.contact-section .container-team .card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: rgba(255, 255, 255, .05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section .container-team .card .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.contact-section .container-team .card:hover .content {
+  opacity: 1;
+}
+
+.contact-section .container-team .card .content .imgBx {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, .25);
+}
+
+.contact-section .container-team .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section .container-team .card .content .contentBx h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.contact-section .container-team .card .content .contentBx h3 span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: ini;
 }
