@@ -11825,6 +11825,42 @@ h1 {
   color: #fff;
 }
 
+.contact-section h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow: 0 2px 1px #f6f6f6, 0 3px 0 #efefef, 0 4px 0 #e9e9e9, 0 5px 0 #e3e3e3, 0 6px 0 #ddd, 0 7px 0 #d7d7d7, 0 8px 0 #d1d1d1, 0 10px 10px rgba(170,170,170,0.4);
+}
+
+.roadmap-section h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow: 0 2px 1px #f6f6f6, 0 3px 0 #efefef, 0 4px 0 #e9e9e9, 0 5px 0 #e3e3e3, 0 6px 0 #ddd, 0 7px 0 #d7d7d7, 0 8px 0 #d1d1d1, 0 10px 10px rgba(170,170,170,0.4);
+}
+
+.faq-section h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow: 0 2px 1px #f6f6f6, 0 3px 0 #efefef, 0 4px 0 #e9e9e9, 0 5px 0 #e3e3e3, 0 6px 0 #ddd, 0 7px 0 #d7d7d7, 0 8px 0 #d1d1d1, 0 10px 10px rgba(170,170,170,0.4);
+}
+
+.projects-section h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow: 0 2px 1px #f6f6f6, 0 3px 0 #efefef, 0 4px 0 #e9e9e9, 0 5px 0 #e3e3e3, 0 6px 0 #ddd, 0 7px 0 #d7d7d7, 0 8px 0 #d1d1d1, 0 10px 10px rgba(170,170,170,0.4);
+}
+
 .footer {
   padding: 5rem 0;
 }
