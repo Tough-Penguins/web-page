@@ -11747,6 +11747,15 @@ textarea.form-control-lg {
     text-shadow:  0 10px 10px rgba(170,170,170,0.4);
   }
 
+  .about-section h2 {
+    font-family: Helvetica; 
+    font-weight:bold; 
+    color: #f3f3f3; 
+    font-size: 60px; 
+    letter-spacing: -4px; 
+    text-shadow:  0 10px 10px rgba(170,170,170,0.4);
+  }
+
   .footer {
     padding: 5rem 0;
   }
