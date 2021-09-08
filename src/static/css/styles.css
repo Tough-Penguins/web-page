@@ -7934,7 +7934,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #ffffff !important;
 }
 
 .text-black-50 {
@@ -11808,14 +11808,12 @@ h1 {
   position: relative;
   padding-left: 20px;
   margin-left: 10px;
-  &:last-child{
-    border: 0px;
-    padding-bottom: 0;
-  }
-  &:before{
+}
+.roadmap-section li::before{
     content: '';
     width: 15px;
     height: 15px;
+    background: black;
     border: 1px solid #4e5ed3;
     box-shadow: 3px 3px 0px #bab5f8;
     box-shadow: 3px 3px 0px #bab5f8;
@@ -11823,10 +11821,13 @@ h1 {
     position: absolute;
     left: -10px;
     top: 0px;
-  }
+}
+.roadmap-section li::last-child{
+    border: 0px;
+    padding-bottom: 0;  
 }
 .roadmap-section .time{
-  color: #2a2839;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   @include mobile-and-up{
@@ -11836,11 +11837,10 @@ h1 {
     margin-bottom: .3rem;
     font-size: 0.85rem;
   }
-
 }
 .roadmap-section p{
-  color: #4f4f4f;
-      font-family: sans-serif;
+  color: #ffffff;
+  font-family: sans-serif;
   line-height: 1.5;
   margin-top:0.4rem;
   @include mobile-only{
