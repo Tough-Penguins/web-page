@@ -11835,10 +11835,22 @@ textarea.form-control-lg {
     text-shadow:  0 10px 10px rgba(170,170,170,0.4);
   }
 
+
+.roadmap-section .section-subheading {
+    font-family: 'Roboto Slab'; 
+    font-style: italic;
+    font-weight: 400; 
+    color: #fff; 
+    font-size: 20px; 
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+
   .faq-section h2 {
-    font-family: Helvetica; 
+    font-family: Helvetica;
     font-weight:bold; 
-    color: #f3f3f3; 
+    color: #f3f3f3;
     font-size: 60px; 
     letter-spacing: -4px; 
     text-shadow:  0 10px 10px rgba(170,170,170,0.4);
