@@ -11761,110 +11761,7 @@ h1 {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-@mixin tablet-and-up {
-    @media screen and (min-width: 769px) { @content; }
-}
-@mixin mobile-and-up {
-    @media screen and (min-width: 601px) { @content; }
-}
-@mixin tablet-and-down  {
-    @media screen and (max-width: 768px) { @content; }
-}
-@mixin mobile-only {
-    @media screen and (max-width: 600px) { @content; }
-}
 
-
-.roadmap-section ul, li{
-  list-style: none;
-  padding: 0;
-}
-
-.roadmap-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  padding: 3rem 0;
-}
-.roadmap-section .wrapper{
-  background-color:rgba(255,255,255,.15);
-  backdrop-filter:blur(5px);
-  padding: 2rem;
-  border-radius: 15px;
-}
-.roadmap-section h1{
-  font-size: 1.1rem;
-  font-family: sans-serif;
-}
-.roadmap-section .sessions{
-  margin-top: 2rem;
-  border-radius: 12px;
-  position: relative;
-}
-.roadmap-section li{
-  padding-bottom: 1.5rem;
-  border-left: 1px solid #abaaed;
-  position: relative;
-  padding-left: 20px;
-  margin-left: 10px;
-}
-.roadmap-section li::before{
-    content: '';
-    width: 15px;
-    height: 15px;
-    background: black;
-    border: 1px solid #4e5ed3;
-    box-shadow: 3px 3px 0px #bab5f8;
-    box-shadow: 3px 3px 0px #bab5f8;
-    border-radius: 50%;
-    position: absolute;
-    left: -10px;
-    top: 0px;
-}
-.roadmap-section li::last-child{
-    border: 0px;
-    padding-bottom: 0;  
-}
-.roadmap-section .time{
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-
-.roadmap-section .time @include mobile-and-up{
-  font-size: 1.1rem;
-}
-
-.roadmap-section .time @include mobile-only{
-  margin-bottom: .3rem;
-  font-size: 0.85rem;
-}
-
-.roadmap-section p{
-  color: #ffffff;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin-top:0.4rem;
-}
-
-.roadmap-section p @include mobile-only{
-    font-size: .9rem;
-}
-
-.roadmap-section .countdown li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-  color: white;
-}
-.roadmap-section .countdown li span {
-  display: block;
-  font-size: 4.5rem;
-  color: white;
-}
 .faq-section {
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
@@ -12075,4 +11972,84 @@ body {
   font-size: 12px;
   font-weight: 300;
   text-transform: ini;
+}
+
+
+@mixin tablet-and-up {
+    @media screen and (min-width: 769px) { @content; }
+}
+@mixin mobile-and-up {
+    @media screen and (min-width: 601px) { @content; }
+}
+@mixin tablet-and-down  {
+    @media screen and (max-width: 768px) { @content; }
+}
+@mixin mobile-only {
+    @media screen and (max-width: 600px) { @content; }
+}
+
+
+.roadmap-section ul, li{
+  list-style: none;
+  padding: 0;
+}
+
+.roadmap-section .container{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  padding: 0 1rem;
+  padding: 3rem 0;
+}
+.roadmap-section .wrapper{
+ background-color: rgba(255, 255, 255, .15);  
+  padding: 2rem;
+  border-radius: 15px;
+}
+.roadmap-section h1{
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+.roadmap-section .sessions{
+  margin-top: 2rem;
+  border-radius: 12px;
+  position: relative;
+}
+.roadmap-section li{
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #abaaed;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.roadmap-section li:last-child{
+    border: 0px;
+    padding-bottom: 0;
+  }
+
+.roadmap-section li:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: white;
+    border: 1px solid #4e5ed3;
+    box-shadow: 3px 3px 0px #bab5f8;
+    box-shadow: 3px 3px 0px #bab5f8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+  }
+
+.roadmap-section .time{
+  color: #2a2839;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.roadmap-section p {
+  color: #4f4f4f;
+      font-family: sans-serif;
+  line-height: 1.5;
+  margin-top:0.4rem;
 }
