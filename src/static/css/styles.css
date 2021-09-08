@@ -11830,22 +11830,26 @@ h1 {
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  @include mobile-and-up{
-    font-size: 1.1rem;
-  }
-  @include mobile-only{
-    margin-bottom: .3rem;
-    font-size: 0.85rem;
-  }
 }
+
+.roadmap-section .time @include mobile-and-up{
+  font-size: 1.1rem;
+}
+
+.roadmap-section .time @include mobile-only{
+  margin-bottom: .3rem;
+  font-size: 0.85rem;
+}
+
 .roadmap-section p{
   color: #ffffff;
   font-family: sans-serif;
   line-height: 1.5;
   margin-top:0.4rem;
-  @include mobile-only{
+}
+
+.roadmap-section p @include mobile-only{
     font-size: .9rem;
-  }
 }
 
 .roadmap-section .countdown li {
