@@ -11587,7 +11587,7 @@ textarea.form-control-lg {
     outline: none;
   }
   #mainNav .navbar-brand {
-    color: #000;
+    color: #fff;
     font-weight: 700;
     padding: 0.9rem 0;
   }
@@ -12247,6 +12247,11 @@ body {
 
 .home__data{
   color: var(--white-color);
+}
+
+.home__data .btn-primary {
+  position: absolute;
+  transform: translate(100%, 10%);
 }
 
 .home__title{
