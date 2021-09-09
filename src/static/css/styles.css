@@ -12160,8 +12160,8 @@ body {
   height: 15px;
   background: white;
   border: 1px solid #4e5ed3;
-  box-shadow: 3px 3px 0px #bab5f8;
-  box-shadow: 3px 3px 0px #bab5f8;
+  box-shadow: 1.5px 1.5px 0px #bab5f8;
+  box-shadow: 1.5px 1.5px 0px #bab5f8;
   border-radius: 50%;
   position: absolute;
   left: -10px;
