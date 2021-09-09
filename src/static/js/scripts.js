@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sep 7, 2021 22:48:00").getTime();
+var countDownDate = new Date("Sep 8, 2021 18:26:30").getTime();
 var btn = document.getElementById("btnCounter");
 // Update the count down every 1 second
 var x = setInterval(function() {
