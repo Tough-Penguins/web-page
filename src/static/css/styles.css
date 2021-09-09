@@ -12021,10 +12021,13 @@ textarea.form-control-lg {
 }
 
 body {
-  background-image: url('../assets/img/fondo.jpg');
+  background-image: url('../assets/img/fondo.svg'), url('../assets/img/fondo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
