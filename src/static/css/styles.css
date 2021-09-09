@@ -12169,18 +12169,16 @@ body {
 }
 
 .roadmap-section .time{
-  color: #2a2839;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 .roadmap-section p {
-  color: #4f4f4f;
+  color: #fff;
   font-family: sans-serif;
   line-height: 1.5;
   margin-top:0.4rem;
 }
-
-
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*===== VARIABLES CSS =====*/
