@@ -1,0 +1,39 @@
+.about {
+  padding: 10rem 0;
+}
+
+.about .featured-text {
+  padding: 2rem;
+}
+
+.about h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow:  0 10px 10px rgba(170,170,170,0.4);
+}
+
+.about .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .about .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #aad4e5;
+  }
+}
+
+@media (min-width: 992px) {
+  .about .project-text {
+    padding: 5rem;
+  }
+  .about .project-text hr {
+    border-color: #aad4e5;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}

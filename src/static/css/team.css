@@ -1,0 +1,123 @@
+.contact-section {
+  padding-top: 5rem;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #aad4e5;
+}
+
+.contact-section .card h4, .contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #aad4e5;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
+}
+
+.contact-section h2 {
+  font-family: Helvetica; 
+  font-weight:bold; 
+  color: #f3f3f3; 
+  font-size: 60px; 
+  letter-spacing: -4px; 
+  text-shadow:  0 10px 10px rgba(170,170,170,0.4);
+}
+
+.contact-section .container-team {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.contact-section .container-team .card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: rgba(255, 255, 255, .05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section .container-team .card .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.contact-section .container-team .card:hover .content {
+  opacity: 1;
+}
+
+.contact-section .container-team .card .content .imgBx {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, .25);
+}
+
+.contact-section .container-team .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section .container-team .card .content .contentBx h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.contact-section .container-team .card .content .contentBx h3 span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: ini;
+}
