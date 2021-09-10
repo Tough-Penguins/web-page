@@ -13,12 +13,12 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -36,7 +36,6 @@ body {
 .masthead h1 {
 
   margin: 0;
-  font-family: 'frozen', "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
   -webkit-background-clip: text;
@@ -50,8 +49,7 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
 }
-@font-face {
-  font-family:'frozen'; 
+@font-face { 
   src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
 }
 .masthead h2, .masthead .h2 {
@@ -98,8 +96,6 @@ body {
   padding: 0 1.5rem;
 }
 
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -111,7 +107,7 @@ body {
   --white-color: #FCF8F8;
   
   /*===== Font and typography =====*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --big-font-size: 2.5rem;
   --normal-font-size: .938rem;
   
@@ -127,7 +123,7 @@ body {
 }
 
 /*===== LAYOUT =====*/
-.bd-grid{
+.bd-grid {
   max-width: 1024px;
   display: grid;
   grid-template-columns: 100%;

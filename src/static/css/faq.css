@@ -1,5 +1,4 @@
 .faq-section h2 {
-  font-family: Helvetica;
   font-weight:bold; 
   color: #f3f3f3;
   font-size: 60px; 
@@ -8,7 +7,6 @@
 }
 
 .faq-section {
-  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   box-sizing: border-box;
   width:  100%;
