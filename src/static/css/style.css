@@ -5,6 +5,14 @@ html {
 
 body {
   letter-spacing: 0.0625em;
+  background-image: url('../assets/img/fondo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn {
@@ -88,17 +96,6 @@ body {
   max-width: 80rem;
   margin: 0 auto;
   padding: 0 1.5rem;
-}
-
-body {
-  background-image: url('../assets/img/fondo.svg'), url('../assets/img/fondo.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /*===== GOOGLE FONTS =====*/
