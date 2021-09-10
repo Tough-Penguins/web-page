@@ -1,93 +1,94 @@
 html {
-    scroll-padding-top: calc(4.5rem - 1px);
-  }
+  scroll-padding-top: calc(4.5rem - 1px);
+  scroll-behavior: smooth;
+}
 
-  body {
-    letter-spacing: 0.0625em;
-  }
+body {
+  letter-spacing: 0.0625em;
+}
 
-  .btn {
-    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-    padding: 1.25rem 2rem;
-    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 80%;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    border: 0;
-  }
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
 
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+}
+
+.masthead h1 {
+
+  margin: 0;
+  font-family: 'frozen', "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
+  -webkit-background-clip: text;
+  background-size: contain;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  font-weight: 900;
+
+  font-size: 20vw;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+}
+@font-face {
+  font-family:'frozen'; 
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
+}
+.masthead h2, .masthead .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
   .masthead {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
+    height: 100vh;
+    padding: 0;
   }
-
-  .masthead h1 {
-
-    margin: 0;
-    font-family: 'frozen', "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 700;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
-    -webkit-background-clip: text;
-    background-size: contain;
-    width: 100%;
-    text-align: center;
-    color: transparent;
-    font-weight: 900;
-
-    font-size: 20vw;
-    line-height: 2.5rem;
+  .masthead h1, .masthead .h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
-  @font-face {
-    font-family:'frozen'; 
-    src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
-  }
   .masthead h2, .masthead .h2 {
-    max-width: 20rem;
-    font-size: 1rem;
+    max-width: 30rem;
+    font-size: 1.25rem;
   }
-  @media (min-width: 768px) {
-    .masthead h1, .masthead .h1 {
-      font-size: 4rem;
-      line-height: 4rem;
-    }
-  }
-  @media (min-width: 992px) {
-    .masthead {
-      height: 100vh;
-      padding: 0;
-    }
-    .masthead h1, .masthead .h1 {
-      font-size: 6.5rem;
-      line-height: 6.5rem;
-      letter-spacing: 0.8rem;
-    }
-    .masthead h2, .masthead .h2 {
-      max-width: 30rem;
-      font-size: 1.25rem;
-    }
-  }
+}
 
-  .footer {
-    padding: 5rem 0;
-  }
+.footer {
+  padding: 5rem 0;
+}
 
-  .container {
-    width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
-  .container {
-    width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
 body {
   background-image: url('../assets/img/fondo.svg'), url('../assets/img/fondo.jpg');
